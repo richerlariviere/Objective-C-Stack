@@ -2,13 +2,6 @@
 
 @implementation RLStackCell
 
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        self = [self initWithObjectAndSuccessor:0 :nil];
-    }
-    return self;
-}
 
 - (instancetype)initWithObjectAndSuccessor: (id) object
                                           : (RLStackCell*) successor {
