@@ -10,7 +10,7 @@
     return self;
 }
 
-- (instancetype)initWithObjectAndSuccessor: (int) object
+- (instancetype)initWithObjectAndSuccessor: (id) object
                                           : (RLStackCell*) successor {
     self = [super init];
     if (self) {

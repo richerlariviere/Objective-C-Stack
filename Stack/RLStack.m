@@ -12,26 +12,26 @@
     return self;
 }
 
--(int) pop {
+-(id) pop {
     if (_top != nil) {
-        int tempValue = [_top value];
+        id tempValue = [_top value];
         _top = [_top next];
         _count--;
         return tempValue;
     }
-    return -1;
+    return nil;
 }
 
--(void) push: (int) element {
+-(void) push: (id) element {
     _top = [[RLStackCell alloc] initWithObjectAndSuccessor:element : _top];
     _count++;
 }
 
--(int) peek {
+-(id) peek {
     if(_top != nil) {
         return [_top value];
     }
-    return -1;
+    return nil;
 }
 
 @end

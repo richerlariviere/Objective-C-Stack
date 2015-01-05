@@ -6,10 +6,10 @@
 @property RLStackCell* top;
 @property (readonly) int count;
 
--(int) pop;
+-(id) pop;
 
--(void) push: (int) element;
+-(void) push: (id) element;
 
--(int) peek;
+-(id) peek;
 
 @end

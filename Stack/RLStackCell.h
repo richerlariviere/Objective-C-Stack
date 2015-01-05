@@ -3,8 +3,8 @@
 @interface RLStackCell : NSObject
 
 @property RLStackCell* next;
-@property int value;
+@property id value;
 
-- (instancetype)initWithObjectAndSuccessor: (int) object
+- (instancetype)initWithObjectAndSuccessor: (id) object
                                           : (RLStackCell*) successor;
 @end
