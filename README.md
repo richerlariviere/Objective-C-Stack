@@ -12,6 +12,27 @@ This is mainly for learning purpose.
 I plan to improve this structure until I get a strong code using modern coding techniques brought recently 
 to the language.
 
+## How-to use it
+
+```objective-c
+
+RLStack* stack = [[RLStack alloc] init];
+
+[stack push:@"e"];
+[stack push:[NSDate date]];
+
+NSLog(@"Count is : %i", [stack count]);
+NSLog(@"Top value is : %@", [stack peek]);
+
+NSLog(@"Element %@ removed",[stack pop]);
+NSLog(@"Element %@ removed",[stack pop]);
+NSLog(@"Element %@ removed",[stack pop]);
+
+NSLog(@"Count is : %i", [stack count]);
+NSLog(@"Top value is : %@", [stack peek]);
+
+```
+
 ## Then what?
 
 Why not implementing more data structures, like :
