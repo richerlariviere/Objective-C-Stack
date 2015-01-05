@@ -1,10 +1,9 @@
 #import <Foundation/Foundation.h>
-#import "Stack.h"
+#import "RLStack.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        
-        Stack* stack = [[Stack alloc] init];
+        RLStack* stack = [[RLStack alloc] init];
         
         NSLog(@"Count is : %i", [stack count]);
         NSLog(@"Top value is : %i", [stack peek]);

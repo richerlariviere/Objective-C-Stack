@@ -1,12 +1,10 @@
 #import <Foundation/Foundation.h>
-#import "StackCell.h"
+#import "RLStackCell.h"
 
-@interface Stack : NSObject
+@interface RLStack : NSObject
 
-@property StackCell* top;
+@property RLStackCell* top;
 @property (readonly) int count;
-
-
 
 -(int) pop;
 

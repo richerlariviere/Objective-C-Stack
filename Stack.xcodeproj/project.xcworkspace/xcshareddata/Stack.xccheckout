@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4EF291F6-41C9-432A-A268-04B1AB68147E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Stack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E4CF0FFABA73EDF8CA4691FF8AECF462923FD6CE</key>
+		<string>https://github.com/richerlariviere/Stack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Stack.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E4CF0FFABA73EDF8CA4691FF8AECF462923FD6CE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/richerlariviere/Stack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E4CF0FFABA73EDF8CA4691FF8AECF462923FD6CE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E4CF0FFABA73EDF8CA4691FF8AECF462923FD6CE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Stack</string>
+		</dict>
+	</array>
+</dict>
+</plist>

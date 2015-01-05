@@ -1,6 +1,6 @@
-#import "Stack.h"
+#import "RLStack.h"
 
-@implementation Stack
+@implementation RLStack
 
 - (instancetype)init
 {
@@ -23,7 +23,7 @@
 }
 
 -(void) push: (int) element {
-    _top = [[StackCell alloc] initWithObjectAndSuccessor:element : _top];
+    _top = [[RLStackCell alloc] initWithObjectAndSuccessor:element : _top];
     _count++;
 }
 

@@ -1,6 +1,6 @@
-#import "StackCell.h"
+#import "RLStackCell.h"
 
-@implementation StackCell
+@implementation RLStackCell
 
 - (instancetype)init {
     self = [super init];
@@ -11,7 +11,7 @@
 }
 
 - (instancetype)initWithObjectAndSuccessor: (int) object
-                                          : (StackCell*) successor {
+                                          : (RLStackCell*) successor {
     self = [super init];
     if (self) {
         _value = object;
