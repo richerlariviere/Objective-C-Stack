@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18E35DD41A5A5E2500C1E510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DD31A5A5E2500C1E510 /* main.m */; };
+		18E35DDC1A5A5FA000C1E510 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDB1A5A5FA000C1E510 /* Stack.m */; };
+		18E35DDF1A5A62F400C1E510 /* StackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDE1A5A62F400C1E510 /* StackCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		18E35DD01A5A5E2500C1E510 /* Stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E35DD31A5A5E2500C1E510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E35DDA1A5A5FA000C1E510 /* Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
+		18E35DDB1A5A5FA000C1E510 /* Stack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
+		18E35DDD1A5A62F400C1E510 /* StackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackCell.h; sourceTree = "<group>"; };
+		18E35DDE1A5A62F400C1E510 /* StackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				18E35DD31A5A5E2500C1E510 /* main.m */,
+				18E35DDA1A5A5FA000C1E510 /* Stack.h */,
+				18E35DDB1A5A5FA000C1E510 /* Stack.m */,
+				18E35DDD1A5A62F400C1E510 /* StackCell.h */,
+				18E35DDE1A5A62F400C1E510 /* StackCell.m */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E35DDC1A5A5FA000C1E510 /* Stack.m in Sources */,
+				18E35DDF1A5A62F400C1E510 /* StackCell.m in Sources */,
 				18E35DD41A5A5E2500C1E510 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
