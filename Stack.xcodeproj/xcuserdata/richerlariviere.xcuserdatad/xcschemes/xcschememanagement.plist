@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>RLStackTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Stack.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>180A48E41A5B3FF700933E64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1860C8171A5B6D0B0076D4CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1860C8241A5B6D6C0076D4CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>18E35DCF1A5A5E2500C1E510</key>
 		<dict>
 			<key>primary</key>

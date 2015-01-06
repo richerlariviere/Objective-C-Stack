@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "18E35DCF1A5A5E2500C1E510"
-               BuildableName = "Stack"
-               BlueprintName = "Stack"
+               BlueprintIdentifier = "1860C8241A5B6D6C0076D4CE"
+               BuildableName = "RLStackTests.xctest"
+               BlueprintName = "RLStackTests"
                ReferencedContainer = "container:Stack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18E35DCF1A5A5E2500C1E510"
-            BuildableName = "Stack"
-            BlueprintName = "Stack"
+            BlueprintIdentifier = "1860C8241A5B6D6C0076D4CE"
+            BuildableName = "RLStackTests.xctest"
+            BlueprintName = "RLStackTests"
             ReferencedContainer = "container:Stack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -58,15 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18E35DCF1A5A5E2500C1E510"
-            BuildableName = "Stack"
-            BlueprintName = "Stack"
+            BlueprintIdentifier = "1860C8241A5B6D6C0076D4CE"
+            BuildableName = "RLStackTests.xctest"
+            BlueprintName = "RLStackTests"
             ReferencedContainer = "container:Stack.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,15 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "18E35DCF1A5A5E2500C1E510"
-            BuildableName = "Stack"
-            BlueprintName = "Stack"
+            BlueprintIdentifier = "1860C8241A5B6D6C0076D4CE"
+            BuildableName = "RLStackTests.xctest"
+            BlueprintName = "RLStackTests"
             ReferencedContainer = "container:Stack.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

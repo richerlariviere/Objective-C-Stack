@@ -19,7 +19,7 @@
  *
  *  @return Top element of the stack.
  */
--(id) pop;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) id pop;
 
 /**
  *  Add an element at the top of the stack.
@@ -33,6 +33,6 @@
  *
  *  @return stack's top object
  */
--(id) peek;
+@property (NS_NONATOMIC_IOSONLY, readonly, strong) id peek;
 
 @end

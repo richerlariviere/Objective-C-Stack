@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1860C8131A5B64A30076D4CE /* RLStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDE1A5A62F400C1E510 /* RLStackCell.m */; };
+		1860C82A1A5B6D6C0076D4CE /* RLStackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1860C8291A5B6D6C0076D4CE /* RLStackTests.m */; };
+		1860C8301A5B71A40076D4CE /* RLStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDB1A5A5FA000C1E510 /* RLStack.m */; };
+		1860C8311A5B71A40076D4CE /* RLStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDE1A5A62F400C1E510 /* RLStackCell.m */; };
 		18E35DD41A5A5E2500C1E510 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DD31A5A5E2500C1E510 /* main.m */; };
 		18E35DDC1A5A5FA000C1E510 /* RLStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDB1A5A5FA000C1E510 /* RLStack.m */; };
-		18E35DDF1A5A62F400C1E510 /* RLStackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E35DDE1A5A62F400C1E510 /* RLStackCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1860C8251A5B6D6C0076D4CE /* RLStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1860C8281A5B6D6C0076D4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1860C8291A5B6D6C0076D4CE /* RLStackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLStackTests.m; sourceTree = "<group>"; };
 		18E35DD01A5A5E2500C1E510 /* Stack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stack; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E35DD31A5A5E2500C1E510 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18E35DDA1A5A5FA000C1E510 /* RLStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLStack.h; sourceTree = "<group>"; };
@@ -34,6 +40,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1860C8221A5B6D6C0076D4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18E35DCD1A5A5E2500C1E510 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +57,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1860C8261A5B6D6C0076D4CE /* RLStackTests */ = {
+			isa = PBXGroup;
+			children = (
+				1860C8291A5B6D6C0076D4CE /* RLStackTests.m */,
+				1860C8271A5B6D6C0076D4CE /* Supporting Files */,
+			);
+			path = RLStackTests;
+			sourceTree = "<group>";
+		};
+		1860C8271A5B6D6C0076D4CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1860C8281A5B6D6C0076D4CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		18E35DC71A5A5E2500C1E510 = {
 			isa = PBXGroup;
 			children = (
-				18E35DD21A5A5E2500C1E510 /* Stack */,
+				18E35DD21A5A5E2500C1E510 /* RLStack */,
+				1860C8261A5B6D6C0076D4CE /* RLStackTests */,
 				18E35DD11A5A5E2500C1E510 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,11 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				18E35DD01A5A5E2500C1E510 /* Stack */,
+				1860C8251A5B6D6C0076D4CE /* RLStackTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		18E35DD21A5A5E2500C1E510 /* Stack */ = {
+		18E35DD21A5A5E2500C1E510 /* RLStack */ = {
 			isa = PBXGroup;
 			children = (
 				18E35DD31A5A5E2500C1E510 /* main.m */,
@@ -69,12 +101,30 @@
 				18E35DDD1A5A62F400C1E510 /* RLStackCell.h */,
 				18E35DDE1A5A62F400C1E510 /* RLStackCell.m */,
 			);
+			name = RLStack;
 			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1860C8241A5B6D6C0076D4CE /* RLStackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1860C82B1A5B6D6C0076D4CE /* Build configuration list for PBXNativeTarget "RLStackTests" */;
+			buildPhases = (
+				1860C8211A5B6D6C0076D4CE /* Sources */,
+				1860C8221A5B6D6C0076D4CE /* Frameworks */,
+				1860C8231A5B6D6C0076D4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RLStackTests;
+			productName = RLStackTests;
+			productReference = 1860C8251A5B6D6C0076D4CE /* RLStackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		18E35DCF1A5A5E2500C1E510 /* Stack */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E35DD71A5A5E2500C1E510 /* Build configuration list for PBXNativeTarget "Stack" */;
@@ -101,6 +151,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Richer Lariviere";
 				TargetAttributes = {
+					1860C8241A5B6D6C0076D4CE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 					18E35DCF1A5A5E2500C1E510 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -119,17 +172,38 @@
 			projectRoot = "";
 			targets = (
 				18E35DCF1A5A5E2500C1E510 /* Stack */,
+				1860C8241A5B6D6C0076D4CE /* RLStackTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1860C8231A5B6D6C0076D4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		1860C8211A5B6D6C0076D4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1860C8301A5B71A40076D4CE /* RLStack.m in Sources */,
+				1860C8311A5B71A40076D4CE /* RLStackCell.m in Sources */,
+				1860C82A1A5B6D6C0076D4CE /* RLStackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18E35DCC1A5A5E2500C1E510 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1860C8131A5B64A30076D4CE /* RLStackCell.m in Sources */,
 				18E35DDC1A5A5FA000C1E510 /* RLStack.m in Sources */,
-				18E35DDF1A5A62F400C1E510 /* RLStackCell.m in Sources */,
 				18E35DD41A5A5E2500C1E510 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +211,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1860C82C1A5B6D6C0076D4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1860C82D1A5B6D6C0076D4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RLStackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		18E35DD51A5A5E2500C1E510 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -215,6 +321,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -230,6 +337,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1860C82B1A5B6D6C0076D4CE /* Build configuration list for PBXNativeTarget "RLStackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860C82C1A5B6D6C0076D4CE /* Debug */,
+				1860C82D1A5B6D6C0076D4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18E35DCB1A5A5E2500C1E510 /* Build configuration list for PBXProject "Stack" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
