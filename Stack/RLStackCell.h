@@ -23,10 +23,10 @@
  Returns an RLStackCell object initialized to correspond to the specified object and pointing RLStackCell object
  
  @param object Reference to an object which will be held in the RLStackCell.
- @param successor Represent a pointer to another RLStackCell. This is used to link RLStackCell together
+ @param next Represent a pointer to another RLStackCell. This is used to link RLStackCell together
  
  @return An initialized object, or nil if an object could not be created for some reason that
- would not result in an exception.
+         would not result in an exception.
  */
 - (instancetype)initWithObject: (id) object
                      successor: (RLStackCell*) next;
