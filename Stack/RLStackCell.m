@@ -3,12 +3,12 @@
 @implementation RLStackCell
 
 
-- (instancetype)initWithObjectAndSuccessor: (id) object
-                                          : (RLStackCell*) successor {
+- (instancetype)initWithObject: (id) object
+                     successor: (RLStackCell*) next {
     self = [super init];
     if (self) {
         _value = object;
-        _next = successor;
+        _next = next;
     }
     return self;
 }

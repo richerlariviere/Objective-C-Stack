@@ -23,7 +23,8 @@
 }
 
 -(void) push: (id) element {
-    _top = [[RLStackCell alloc] initWithObjectAndSuccessor:element : _top];
+    _top = [[RLStackCell alloc] initWithObject:element successor:_top ];
+    
     _count++;
 }
 

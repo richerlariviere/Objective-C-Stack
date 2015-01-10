@@ -28,6 +28,6 @@
  @return An initialized object, or nil if an object could not be created for some reason that
  would not result in an exception.
  */
-- (instancetype)initWithObjectAndSuccessor: (id) object
-                                          : (RLStackCell*) successor;
+- (instancetype)initWithObject: (id) object
+                     successor: (RLStackCell*) next;
 @end
